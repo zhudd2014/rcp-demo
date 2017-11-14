@@ -5,5 +5,5 @@
 */target/*
 *.iml
 .idea/
-
+/target/*
 /publish.dao/src/main/resources/generatorConfig.xml
