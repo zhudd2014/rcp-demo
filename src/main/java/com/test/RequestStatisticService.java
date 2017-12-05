@@ -10,7 +10,7 @@ public class RequestStatisticService {
     @Autowired
     private EmulatorService emulatorService;
 
-    public static final String serviceName = "com.fenqile.statistic.request.service.StatisticRequestService";
+    public static final String serviceName = "com.test.statistic.request.service.StatisticRequestService";
     public static final String method = "queryUserTrace";
     public static final String ip = "192.168.64.209";
     public static final int port = 30337;

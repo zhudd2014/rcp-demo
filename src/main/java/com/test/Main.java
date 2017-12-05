@@ -1,7 +1,6 @@
 package com.test;
 
 import com.alibaba.fastjson.JSONObject;
-import com.fenqile.rpc.demo.vo.EmulatorRequest;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 @SuppressWarnings("resource")
@@ -18,7 +17,7 @@ public class Main {
 
         EmulatorRequest request = new EmulatorRequest();
         request.setEnv("project");
-        request.setService("com.fenqile.work.auth.activate.credit.service.CreditService");
+        request.setService("com.test.work.auth.activate.credit.service.CreditService");
         request.setMethod("getUserRcStepStatus");
 //        request.setParams("{\"deptNo\":\"001\",\"goodsNos\":\"13241\",\"pageNo\":\"1\","
 //            + "\"pageSize\":\"10\",\"isvGoodsNos\":\"1\"}");
