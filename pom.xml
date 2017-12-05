@@ -136,22 +136,9 @@
 
 
     <!-- 私服链接 -->
-   
 
-    <!--deploy jar -->
-    <distributionManagement>
-        <repository>
-            <id>Releases</id>
-            <name>Releases</name>
-            <url>http://product.fenqile.com:8081/nexus/content/repositories/releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>Snapshots</id>
-            <name>Snapshots</name>
-            <url>http://product.fenqile.com:8081/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
 
+    
     <build>
         <finalName>${project.artifactId}</finalName>
         <plugins>
