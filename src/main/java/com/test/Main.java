@@ -1,4 +1,4 @@
-package com.fenqile.rpc.demo;
+package com.test;
 
 import com.alibaba.fastjson.JSONObject;
 import com.fenqile.rpc.demo.vo.EmulatorRequest;

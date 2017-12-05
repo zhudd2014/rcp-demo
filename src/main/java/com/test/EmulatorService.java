@@ -1,4 +1,4 @@
-package com.fenqile.rpc.demo;
+package com.test;
 
 import java.io.IOException;
 import java.io.InputStream;

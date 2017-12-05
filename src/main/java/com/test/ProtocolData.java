@@ -1,4 +1,4 @@
-package com.fenqile.rpc.demo.vo;
+package com.test;
 
 import lombok.Data;
 
@@ -9,32 +9,24 @@ import java.io.Serializable;
  *
  * @author fanchunlin
  * @version 2016年3月22日
- * @see EmulatorRequest
+ * @see ProtocolData
  * @since 1.0
  */
 @Data
-public class EmulatorRequest implements Serializable{
+public class ProtocolData implements Serializable{
 
     /**
      * serialVersionUID
      */
     private static final long serialVersionUID = -7915158363901196233L;
     /**
-     * env
+     * environment
      */
-    private String env;
+    private String environment;
     /**
      * service
      */
     private String service;
-    /**
-     * ip
-     */
-    private String ip;
-    /**
-     * port
-     */
-    private Integer port;
     /**
      * group
      */
@@ -51,6 +43,11 @@ public class EmulatorRequest implements Serializable{
      * params
      */
     private String params;
+    
 
-
+    /**
+     * types
+     */
+    private String[] types = {};
+    
 }

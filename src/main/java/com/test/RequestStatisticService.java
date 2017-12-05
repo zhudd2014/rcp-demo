@@ -1,7 +1,6 @@
-package com.fenqile.rpc.demo;
+package com.test;
 
 import com.alibaba.fastjson.JSONObject;
-import com.fenqile.rpc.demo.vo.EmulatorRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
